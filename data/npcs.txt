@@ -2,12 +2,8 @@ NPCBS1 {
     movieclip Gasser
     sound_id Drown1
     text [
-       "careful! \nthat over there\nis a mega gasper"
-       "the superior\nlifeform\nto us gaspers"
-       "they say theyre\nextremely\nunstable though"
-       "try jumping\non one but\ndont go too fast"
-       "your organs\nwould rupture\nif you do"
-"and also\ntheres very deadly\ninvisible gas"
+       "you have\n14 seconds"
+       "get ready... start!"
     ]
 }
 FuguFish {
