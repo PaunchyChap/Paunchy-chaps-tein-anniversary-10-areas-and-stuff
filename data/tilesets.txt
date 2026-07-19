@@ -27,6 +27,7 @@ art_alts [
     global_particle_1 fluxrocks
     global_particle_2 drones
 decoration_2 pipe
+decoration_3 Cog
 global_particle_3 lightning
     music [cazzata.ogg, cazzata.ogg]
     ambience labloop.ogg
