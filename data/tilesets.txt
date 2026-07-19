@@ -28,7 +28,7 @@ art_alts [
     global_particle_2 drones
 decoration_2 pipe
 global_particle_3 lightning
-    music [youarenottheguy.ogg, youarenottheguy.ogg]
+    music [cazzata.ogg, cazzata.ogg]
     ambience labloop.ogg
 }
 
@@ -63,7 +63,7 @@ art_alts [
     global_particle_2 drones
 decoration_2 pipe
 global_particle_3 lightning
-    music [youarenottheguy.ogg, youarenottheguy.ogg]
+    music [cazzata.ogg, cazzata.ogg]
     ambience labloop.ogg
 }
 
