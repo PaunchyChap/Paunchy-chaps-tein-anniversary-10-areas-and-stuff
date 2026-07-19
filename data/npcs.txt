@@ -10,3 +10,15 @@ NPCBS1 {
 "and also\ntheres very deadly\ninvisible gas"
     ]
 }
+FuguFish {
+    movieclip Fugu
+    sound_id Caw
+    text [
+       "Ta-dada,\nTa-dadada."
+       "Don't pee on the floor,\nuse the commodore."
+       "Laaaa-lalalala la la la\nlaaaaaaaaaaaaa!"
+       "..."
+       "Dive quickly in the water and then-"
+       "jump back out right as you hit the water to achieve height."
+    ]
+}
