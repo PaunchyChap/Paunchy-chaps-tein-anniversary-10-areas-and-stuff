@@ -3,7 +3,7 @@ flu {
     area_label_frame 8
     tile_graphics Tilecomplex
     overlay_graphics Overlayscomplex
-    background_graphics airshipbg
+    background_graphics bgFLUX
     foreground_graphics None
     fx_shader gravripples
 toxic_timer 14
