@@ -7,14 +7,14 @@ runspeed 11.5
 
 ground_friction .99
 stop_friction .99
-air_friction .9
+air_friction 0.99
 
 
-fastfall_gravity 0
-fastfall_jerkdown 10
+fastfall_gravity 50
+fastfall_jerkdown -10
 fastfall_maxspeed 10
 
-float_time 2
+float_time 245
 
 jumpheight 1
 release_jumpheight 0

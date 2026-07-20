@@ -39,7 +39,7 @@ flux {
     area_name "FLU-X Kapacitor"
     tile_graphics Tilecomplex
     overlay_graphics Overlayscomplex
-    background_graphics airshipbg
+    background_graphics bgFLUX
     foreground_graphics None
     fx_shader gravripples
 toxic_timer 14
@@ -77,11 +77,7 @@ ps {
     background_graphics bgretrox
     foreground_graphics none
     palette 7
-npc_1 CHARGERSLUG
     player_physics data/playerphysics_slippy.txt
-    art_alts [
-[Player, SkullCrow]
-]
     music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
     
     music_volume 1
