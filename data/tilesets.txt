@@ -97,5 +97,8 @@ npc_1 RealEyes
     tile_particle_1 dust
     music_volume 1
     ambience_volume 1
-
+3 {
+   global_particle_2 wind
+    global_particle_3 cloudwind
+}
 }
