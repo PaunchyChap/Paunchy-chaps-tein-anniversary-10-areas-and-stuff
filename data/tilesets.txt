@@ -84,3 +84,18 @@ ps {
     ambience_volume 1
  
 }
+li {
+    tile_graphics Tilefield
+    overlay_graphics Overlaysfield
+    background_graphics lacrimosabg
+    foreground_graphics none
+    palette 27
+npc_1 RealEyes
+    music [glitch/dance_intro.ogg, glitch/dance_loop.ogg]
+     global_particle_1 leaves
+    global_particle_3 cloudwind_light
+    tile_particle_1 dust
+    music_volume 1
+    ambience_volume 1
+
+}

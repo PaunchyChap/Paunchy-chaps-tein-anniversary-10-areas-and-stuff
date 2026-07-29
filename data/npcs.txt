@@ -15,3 +15,11 @@ FuguFish {
        "Laaaa-lalalala la la la\nlaaaaaaaaaaaaa!"
     ]
 }
+RealEyes {
+movieclip NPC13
+sound_id Caw
+    text [
+     "real eyes\nrealize\nreal lies..."
+"...\nhows that for a real wise guy?"
+    ]
+}
