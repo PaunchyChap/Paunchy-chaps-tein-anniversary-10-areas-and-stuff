@@ -1,3 +1,13 @@
+str {
+area_name "ST-RATO-2PHERE"
+area_label_frame 9
+tile_graphics Tileairship
+overlay_graphics Overlayscomplex
+foreground_graphics None
+background_graphics airshipbg
+player_physics data/playerphysics_str.txt
+palette 9
+}
 flu {
     area_name "FLU-X Kapacitor"
     area_label_frame 8
