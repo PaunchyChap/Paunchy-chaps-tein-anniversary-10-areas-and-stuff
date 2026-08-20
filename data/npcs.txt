@@ -1,4 +1,4 @@
-NPCBS1 {
+DoeoGasper {
     movieclip Gasser
     sound_id Drown1
     text [
@@ -13,6 +13,25 @@ FuguFish {
        "Ta-dada,\nTa-dadada."
        "Don't pee on the floor,\nuse the commodore."
        "Laaaa-lalalala la la la\nlaaaaaaaaaaaaa!"
+    ]
+}
+Crusher {
+    movieclip GasserCOOL
+    sound_id Drown2
+    text [
+       "You know what they say!\n..."
+       "An ubject thats in motion, wunt give motion!"
+       "Ontil it stops!"
+       "Atleast...\n thats what they all say."
+    ]
+}
+Stylite {
+    movieclip Crazy
+    sound_id Drown3
+    text [
+       "I AM THE MIGHTY STYLITE!!!\nHEED MY MIGHTY WORDS!!"
+       "YOU KNOW WHAT THEY CALL TUMORS IN PARIS?!"
+       "LE TUMAGE!\n ROFLMAOOOOOOOOOOOOOOO!!!!"
     ]
 }
 RealEyes {
