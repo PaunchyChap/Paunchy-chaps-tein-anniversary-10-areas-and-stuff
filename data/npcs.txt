@@ -1,9 +1,9 @@
 DoeoGasper {
-    movieclip Gasser
+    movieclip doeoGASPER
     sound_id Drown1
     text [
-       "you have\n14 seconds"
-       "get ready... start!"
+       "you have\n14 seconds worth of oxygen"
+       "get ready... start!\n mind the deadly yellow gas!"
     ]
 }
 FuguFish {
