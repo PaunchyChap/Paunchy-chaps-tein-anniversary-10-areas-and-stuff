@@ -6,6 +6,16 @@ DoeoGasper {
        "get ready... start!\n mind the deadly yellow gas!"
     ]
 }
+Halfbro {
+    movieclip doeoGASPER
+    sound_id Drown1
+    text [
+       "hey again!\n looks like the migration didnt work as intended"
+       "i mean, what do you expect from a bunch of gastros?"
+       "what do you mean i cant say that?\n my great grandma was a gasper!"
+       "anywho welcome to the sky district, enjoy your stay and mind the firebawls!"
+    ]
+}
 FuguFish {
     movieclip Fugu
     sound_id Caw
@@ -23,6 +33,21 @@ Crusher {
        "An ubject thats in motion, wunt give motion!"
        "Ontil it stops!"
        "Atleast...\n thats what they all say."
+    ]
+}
+Captain {
+    movieclip GasserBoom
+    sound_id Drown2
+    text [
+       "Listen here, scallywag.\n Today is a big day for Gasperkind."
+       "For today we will be migrating to the grandest place not on earth!"
+       "The environment here has proved to be harsh,"
+" with all the big ghosts and crushers."
+       "So we will seek refuge in a distant planet!"
+       "Allegdly, it is the best home for any gasper, mega or not."
+      "So whenever you're ready, press the switch on the right."
+ "...\nlet me tell you a little secret,"
+"\nI heard the babes there are smokin hot!"
     ]
 }
 Stylite {

@@ -40,9 +40,17 @@ art_alts [
     global_particle_2 drones
 decoration_2 pipe
 decoration_3 Cog
+decoration_1 Thruster
 global_particle_3 lightning
     music [cazzata.ogg, cazzata.ogg]
     ambience labloop.ogg
+11 {
+npc_1 Captain
+do_wobble true
+}
+12 {
+npc_1 Halfbro
+}
 }
 
 
