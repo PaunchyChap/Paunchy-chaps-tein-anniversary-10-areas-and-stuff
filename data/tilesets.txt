@@ -20,7 +20,7 @@ toxic_timer 14
     palette 8
     npc_1 DoeoGasper
     npc_2 Crusher
-
+do_tilt false
     area_type normal
 art_alts [
 [OrbLarge, GasINSTAKILL]
@@ -50,6 +50,12 @@ do_wobble true
 }
 12 {
 npc_1 Halfbro
+}
+16 {
+do_tilt true
+}
+17 {
+do_tilt true
 }
 }
 
@@ -85,10 +91,13 @@ art_alts [
     global_particle_2 drones
 decoration_2 pipe
 global_particle_3 lightning
-    music [cazzata.ogg, cazzata.ogg]
+    music [sea_of_crypts.ogg, sea_of_crypts.ogg]
     ambience labloop.ogg
 flux-3 {
 global_particle_1 cloudwind_heavy
+}
+5 {
+npc_1 Cynops
 }
 }
 

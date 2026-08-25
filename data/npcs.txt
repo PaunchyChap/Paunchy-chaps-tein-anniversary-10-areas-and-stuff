@@ -6,6 +6,16 @@ DoeoGasper {
        "get ready... start!\n mind the deadly yellow gas!"
     ]
 }
+Cynops {
+    movieclip CynopsGhost
+    sound_id Drown1
+    text [
+"youve got big balls to come here\nbut my balls are bigger"
+"and are made of steel"
+"and to be honest,\nyour balls are awful"
+"leave this place,\n your balls are rubbish"
+    ]
+}
 Halfbro {
     movieclip doeoGASPER
     sound_id Drown1
@@ -13,7 +23,7 @@ Halfbro {
        "hey again!\n looks like the migration didnt work as intended"
        "i mean, what do you expect from a bunch of gastros?"
        "what do you mean i cant say that?\n my great grandma was a gasper!"
-       "anywho welcome to the sky district, enjoy your stay and mind the firebawls!"
+       "anywho welcome to the sky district, enjoy your stay and mind the HAZARDS!"
     ]
 }
 FuguFish {
