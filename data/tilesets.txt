@@ -57,6 +57,15 @@ do_tilt true
 17 {
 do_tilt true
 }
+18 {
+do_tilt true
+}
+19 {
+do_tilt true
+}
+20 {
+npc_1 Emperor
+}
 }
 
 

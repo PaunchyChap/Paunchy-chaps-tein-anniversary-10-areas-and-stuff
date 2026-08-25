@@ -45,6 +45,16 @@ Crusher {
        "Atleast...\n thats what they all say."
     ]
 }
+Emperor {
+    movieclip EmperorP
+    sound_id Drown3
+    text [
+       "Oof whos dis ere?,\nsum kindaf black baal o tar?"
+       "Yer lucky am not in me prime."
+"i wouldave turned ye into tar-iffic gumbo!\ni garontee..."
+
+    ]
+}
 Captain {
     movieclip GasserBoom
     sound_id Drown2
