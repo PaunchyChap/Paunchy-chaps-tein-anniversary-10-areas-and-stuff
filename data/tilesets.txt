@@ -51,18 +51,7 @@ do_wobble true
 12 {
 npc_1 Halfbro
 }
-16 {
-do_tilt true
-}
-17 {
-do_tilt true
-}
-18 {
-do_tilt true
-}
-19 {
-do_tilt true
-}
+
 20 {
 npc_1 Emperor
 }
