@@ -99,37 +99,34 @@ npc_1 Cynops
 }
 }
 
-
-
-
-ps {
-    tile_graphics Tileretro
-    overlay_graphics Overlaysretro
-    background_graphics bgretrox
-    foreground_graphics none
-    palette 7
-    player_physics data/playerphysics_slippy.txt
-    music [retro/requiem_intro.ogg, retro/requiem_loop.ogg]
-    
-    music_volume 1
-    ambience_volume 1
- 
-}
 li {
-    tile_graphics Tilefield
+    tile_graphics Tilerapture
     overlay_graphics Overlaysfield
-    background_graphics lacrimosabg
+    background_graphics rapturebg
     foreground_graphics none
     palette 27
-npc_1 RealEyes
+npc_1 Crossy
+art_alts [ [OrbChomp, MovingOrbBlob] ]
+lowgrav_physics data/epicphysics.txt
     music [glitch/dance_intro.ogg, glitch/dance_loop.ogg]
-     global_particle_1 leaves
-    global_particle_3 cloudwind_light
     tile_particle_1 dust
     music_volume 1
     ambience_volume 1
-3 {
-   global_particle_2 wind
-    global_particle_3 cloudwind
+
 }
+lix {
+    tile_graphics Tilerapture
+    overlay_graphics Overlaysfield
+    background_graphics rapturebg
+    foreground_graphics none
+    palette 27
+npc_1 WhiteGish
+art_alts [ [OrbChomp, MovingOrbBlob] ]
+lowgrav_physics data/epicphysics.txt
+    music [glitch/dance_intro.ogg, glitch/dance_loop.ogg]
+    tile_particle_1 dust
+    music_volume 1
+    ambience_volume 1
+
 }
+

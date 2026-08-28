@@ -87,3 +87,22 @@ sound_id Caw
 "...\nhows that for a real wise guy?"
     ]
 }
+Crossy {
+movieclip Cross
+sound_id Caw
+    text [
+"Ever since i was born, people bullied me because i looked weird."
+"But in here, people love me!"
+"I also like sliding across those thingies."
+"By falling and jumping at the same time.\nSometimes it takes two falls"
+    ]
+}
+WhiteGish {
+movieclip NPCX3
+    sound_id NPCGish
+    text [
+     
+"you know, staring into a subsuming vortex isnt really my kind of thing."
+"unless its a toilet bowl!"
+    ]
+}

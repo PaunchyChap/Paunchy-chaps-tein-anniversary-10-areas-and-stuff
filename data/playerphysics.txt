@@ -9,7 +9,7 @@ ground_friction .7
 stop_friction .1
 air_friction .8
 
-bonus_jumps 50
+
 fastfall_gravity 65
 fastfall_jerkdown -5
 fastfall_maxspeed -90
