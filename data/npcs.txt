@@ -106,3 +106,17 @@ movieclip NPCX3
 "unless its a toilet bowl!"
     ]
 }
+PinkGish {
+movieclip NPCX3
+    sound_id NPCGish
+    text [
+"Oooh, bodyslam! Get in the ring y'all!"
+"My special move will put you out of a fight yo!"
+"Bodyslaaaaeeem, get in the ring now!"
+"My special move will put you out of a fight yeah!"
+"Yeaeaah, the headbutt hurts, but you're not dead."
+"The piledriver kills, but its only your head!"
+"But the only- move- thats- most- approved- to take you- straight- out to the round-"
+"BODYSLAAAAM!"
+    ]
+}

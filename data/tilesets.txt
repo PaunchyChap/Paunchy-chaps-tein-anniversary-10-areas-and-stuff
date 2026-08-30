@@ -127,6 +127,21 @@ lowgrav_physics data/epicphysics.txt
     tile_particle_1 dust
     music_volume 1
     ambience_volume 1
-
 }
+tube {
+    tile_graphics Tilefetus
+    overlay_graphics Overlaysfield
+    background_graphics Fetusbg
+    foreground_graphics none
+    palette 26
+    music [VIVIPAROUSINTRO.ogg, VIVIPAROUS.ogg]
+    tile_particle_1 dust
+    music_volume 1
+do_wobble true
+npc_1 PinkGish
+player_physics data/fetusphysics.txt
+    ambience_volume 1
+sfx_file Fetus.txt
+}
+
 
