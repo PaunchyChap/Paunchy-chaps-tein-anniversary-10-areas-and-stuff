@@ -59,7 +59,7 @@ SoundEffectGroups {
 
     Death { #testlevels: anywhere
         files [hit.wav]
-        volume 50
+        volume 2
     }
 
     UnderwaterDeath{
@@ -421,7 +421,7 @@ SoundEffectGroups {
     }
 
     CreepGrow {  #testlevels: 4b-15
-        files [creep1nopop.wav, creep2nopop.wav, creep3.wav, creep4nopop.wav]
+        files [skinflap.wav]
         volume .9
         pitch_range [.5, 1.2]
         falloff .25
