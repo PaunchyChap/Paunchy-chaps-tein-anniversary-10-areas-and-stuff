@@ -142,6 +142,26 @@ npc_1 PinkGish
 player_physics data/fetusphysics.txt
     ambience_volume 1
 sfx_file Fetus.txt
+6 {
+palette 28
+music [blueutero.ogg, blueutero.ogg]
+}
+7 {
+palette 28
+music [blueutero.ogg, blueutero.ogg]
+}
+8 {
+palette 28
+music [blueutero.ogg, blueutero.ogg]
+}
+9 {
+palette 28
+music [blueutero.ogg, blueutero.ogg]
+}
+10 {
+palette 28
+music [blueutero.ogg, blueutero.ogg]
+}
 }
 
 
