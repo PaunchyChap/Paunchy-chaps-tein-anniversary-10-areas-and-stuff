@@ -164,4 +164,17 @@ music [blueutero.ogg, blueutero.ogg]
 }
 }
 
-
+tubex {
+    tile_graphics Tilefetus
+    overlay_graphics Overlaysfield
+    background_graphics Fetusbg
+    foreground_graphics none
+    palette 28
+    music [blueutero.ogg, blueutero.ogg]
+    tile_particle_1 dust
+    music_volume 1
+player_physics data/fetusphysics.txt
+do_wobble true
+    ambience_volume 1
+sfx_file Fetus.txt
+}
