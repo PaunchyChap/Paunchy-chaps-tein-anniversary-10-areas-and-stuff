@@ -17,7 +17,7 @@ fastfall_maxspeed -90
 float_time 1
 
 jumpheight 4.2
-release_jumpheight 3
+release_jumpheight 0.5
 
 longjump_slidethreshold 5
 longjump_speed 24
