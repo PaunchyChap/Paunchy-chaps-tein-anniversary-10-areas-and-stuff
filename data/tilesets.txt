@@ -134,6 +134,8 @@ tube {
     background_graphics Fetusbg
     foreground_graphics none
     palette 26
+art_alts [ [AimSpitter,eyeshooter]
+        [Bullet,eyebullet][MiniFrog, MiniFlea] ]
     music [VIVIPAROUSINTRO.ogg, VIVIPAROUS.ogg]
     tile_particle_1 dust
     music_volume 1
@@ -161,6 +163,26 @@ music [blueutero.ogg, blueutero.ogg]
 10 {
 palette 28
 music [blueutero.ogg, blueutero.ogg]
+}
+11 {
+palette 29
+music [bounty.ogg, bounty.ogg]
+}
+12 {
+palette 29
+music [bounty.ogg, bounty.ogg]
+}
+13 {
+palette 29
+music [bounty.ogg, bounty.ogg]
+}
+14 {
+palette 29
+music [bounty.ogg, bounty.ogg]
+}
+15 {
+palette 29
+music [bounty.ogg, bounty.ogg]
 }
 }
 

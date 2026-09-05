@@ -376,8 +376,8 @@ SoundEffectGroups {
     }
 
     Spit {  #testlevels: 4b-10
-        files [spit1.wav, spit2.wav, spit3.wav, spit4.wav, spit5.wav, spit6.wav, spit7.wav]
-        volume .8
+        files [spit6.wav, spit7.wav]
+        volume .2
         pitch_range [.8, 1.2]
         falloff .7
     }
