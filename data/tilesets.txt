@@ -30,7 +30,6 @@ art_alts [
 [LowGrav, LowGravCircle]
 [OrbChomp, GasINSTAKILL]
 ]
-    
     fx_shader_mid cloudripples
     midfx_layer 2
 
@@ -57,7 +56,10 @@ npc_1 Emperor
 }
 }
 
-
+boa {
+palette 49
+type glitch
+}
 
 flux {
     area_name "FLU-X Kapacitor"
@@ -184,8 +186,32 @@ music [bounty.ogg, bounty.ogg]
 palette 29
 music [bounty.ogg, bounty.ogg]
 }
+16 {
+palette 30
+music [reboundintro.ogg, rebound.ogg]
+player_physics data/reboundphysics.txt
 }
-
+17 {
+palette 30
+music [reboundintro.ogg, rebound.ogg]
+player_physics data/reboundphysics.txt
+}
+18 {
+palette 30
+music [reboundintro.ogg, rebound.ogg]
+player_physics data/reboundphysics.txt
+}
+19 {
+palette 30
+music [reboundintro.ogg, rebound.ogg]
+player_physics data/reboundphysics.txt
+}
+20 {
+palette 30
+music [reboundintro.ogg, rebound.ogg]
+player_physics data/reboundphysics.txt
+}
+}
 tubex {
     tile_graphics Tilefetus
     overlay_graphics Overlaysfield
@@ -195,8 +221,14 @@ tubex {
     music [blueutero.ogg, blueutero.ogg]
     tile_particle_1 dust
     music_volume 1
+art_alts [ [AimSpitter,eyeshooter]
+        [Bullet,eyebullet][MiniFrog, MiniFlea] ]
 player_physics data/fetusphysics.txt
 do_wobble true
     ambience_volume 1
 sfx_file Fetus.txt
+3 {
+palette 30
+player_physics data/reboundphysics.txt
+}
 }
