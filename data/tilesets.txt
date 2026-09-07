@@ -1,13 +1,4 @@
-str {
-area_name "ST-RATO-2PHERE"
-area_label_frame 9
-tile_graphics Tileairship
-overlay_graphics Overlayscomplex
-foreground_graphics None
-background_graphics airshipbg
-player_physics data/playerphysics_str.txt
-palette 9
-}
+
 flu {
     area_name "FLU-X Kapacitor"
     area_label_frame 8
@@ -15,7 +6,7 @@ flu {
     overlay_graphics Overlayscomplex
     background_graphics bgFLUX
     foreground_graphics None
-fx_shader cloudripples
+fx_shader paunchripples
 toxic_timer 14
     palette 8
     npc_1 DoeoGasper
@@ -30,7 +21,7 @@ art_alts [
 [LowGrav, LowGravCircle]
 [OrbChomp, GasINSTAKILL]
 ]
-    fx_shader_mid cloudripples
+    fx_shader_mid paunchripples
     midfx_layer 2
 
     tile_particle_1 spark2
@@ -206,10 +197,33 @@ palette 30
 music [reboundintro.ogg, rebound.ogg]
 player_physics data/reboundphysics.txt
 }
-20 {
+1t {
 palette 30
-music [reboundintro.ogg, rebound.ogg]
-player_physics data/reboundphysics.txt
+}
+2t {
+palette 29
+}
+3t {
+palette 28
+}
+4t {
+palette 26
+}
+20 {
+  tile_graphics Tilefield
+  overlay_graphics Overlaysfield
+  background_graphics field2bg
+  palette 31
+  ambience caves.ogg
+sfx_file mainsounds.txt
+  stop_previous_music true
+player_physics data/playerphysics.txt
+  music_volume 1
+  ambience_volume 0.5
+do_wobble false
+  tile_particle_1 drip
+  global_particle_1 cloudwind_heavy
+  global_particle_2 embers
 }
 }
 tubex {
@@ -230,5 +244,11 @@ sfx_file Fetus.txt
 3 {
 palette 30
 player_physics data/reboundphysics.txt
+}
+4 {
+palette 26
+}
+5 {
+palette 29
 }
 }

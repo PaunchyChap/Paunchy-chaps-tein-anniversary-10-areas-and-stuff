@@ -1,0 +1,85 @@
+tf { # The Fall Main
+  area_name "The Fall"
+  area_label_frame 0
+  tile_graphics TileEnd
+  overlay_graphics Overlaysend
+  background_graphics neverbg
+  palette 1
+
+  music [thembones.ogg, thembones.ogg]
+  ambience caves.ogg
+  stop_previous_music true
+
+  music_volume 1
+  ambience_volume 0.6
+
+  area_type normal
+
+  tile_particle_1 drip
+  global_particle_1 bgrain
+  global_particle_2 fgrain
+  global_particle_3 lightning
+  shader_param 0.55
+  midfx_graphics SolidBox
+  midfx_layer 2
+  fx_shader_mid lighting
+
+  npc_1 NPCH3
+  npc_2 NPC0
+  npc_3 NPC1
+
+art_alts [
+  [OrbSmall, OrbBlob2]
+  [OrbLarge, OrbLarge2]
+  [ChainLink2, None]
+  [MiniFly, MiniWisp]
+]
+
+	 6 {
+	  shader_param 0.5
+	  global_particle_1 cold
+	  global_particle_2 rocks
+     	tile_particle_2 toxicbubbles
+     	fx_shader_mid lighting
+     	midfx_graphics ShadeBox
+     	midfx_layer 2
+				}
+}
+
+cc { # The Badlands (formerly Cretaceous Craton)
+  area_name "The Badlands"
+  area_label_frame 0
+  tile_graphics Tilefield
+  overlay_graphics Overlaysfield
+  background_graphics field2bg
+  palette 2
+
+  music [lonesome_intro.ogg, lonesome_loop.ogg]
+  ambience caves.ogg
+  stop_previous_music true
+
+  music_volume 1
+  ambience_volume 0.5
+
+  area_type normal
+
+  tile_particle_1 drip
+  global_particle_1 cloudwind_heavy
+  global_particle_2 embers
+
+  npc_1 NPCBL1
+  npc_2 NPC0
+  npc_3 NPC1
+
+art_alts [
+  [ChainLink2, None]
+]
+		1 {
+		art_alts [
+ 		 [OrbSmall, OrbBlob2]
+ 		 [OrbLarge, OrbLarge2]
+	         [ChainLink2, None]
+			]
+			}
+
+}
