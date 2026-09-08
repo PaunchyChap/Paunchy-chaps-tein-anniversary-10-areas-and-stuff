@@ -120,3 +120,21 @@ movieclip NPCX3
 "BODYSLAAAAM!"
     ]
 }
+CynopsSperm {
+    movieclip Sperm
+    sound_id Drown1
+    text [
+"oh hello there, welcome stranger"
+ "welcome to this lovely place in a shade of blue"
+"how was your day? how was the weather?"
+"well i cant even hear what yer sayin \nwent deaf 10 years ago"
+"deaf why you ask? oh im so glad"
+"well it all happened here, \ni dont have legs"
+"something loud screamed \nsomething big \nsomething monstrous"
+"my ears got shot \ncant even hear meself talkin matey"
+"but thats just life aint it huh?"
+"you can double jump by the way"
+"had to tell ya my story otherwise youd skip it you nasty"
+"be on your way now" 
+    ]
+}

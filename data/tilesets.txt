@@ -133,7 +133,7 @@ art_alts [ [AimSpitter,eyeshooter]
     tile_particle_1 dust
     music_volume 1
 do_wobble true
-npc_1 PinkGish
+npc_1 CynopsSperm
 player_physics data/fetusphysics.txt
     ambience_volume 1
 sfx_file Fetus.txt
