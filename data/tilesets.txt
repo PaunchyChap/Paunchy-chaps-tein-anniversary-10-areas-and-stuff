@@ -232,7 +232,7 @@ tubex {
     background_graphics Fetusbg
     foreground_graphics none
     palette 28
-    music [seaofcrypts.ogg, seaofcrypts.ogg]
+    music [sea_of_crypts.ogg, sea_of_crypts.ogg]
     tile_particle_1 dust
     music_volume 1
 art_alts [ [AimSpitter,eyeshooter]
