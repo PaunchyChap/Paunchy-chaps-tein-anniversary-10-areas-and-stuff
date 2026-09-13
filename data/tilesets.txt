@@ -6,7 +6,7 @@ flu {
     overlay_graphics Overlayscomplex
     background_graphics bgFLUX
     foreground_graphics None
-fx_shader paunchripples
+fx_shader paunchripples2
 toxic_timer 14
     palette 8
     npc_1 DoeoGasper
@@ -21,7 +21,7 @@ art_alts [
 [LowGrav, LowGravCircle]
 [OrbChomp, GasINSTAKILL]
 ]
-    fx_shader_mid paunchripples
+    fx_shader_mid cloudripples
     midfx_layer 2
 
     tile_particle_1 spark2
@@ -232,7 +232,7 @@ tubex {
     background_graphics Fetusbg
     foreground_graphics none
     palette 28
-    music [blueutero.ogg, blueutero.ogg]
+    music [seaofcrypts.ogg, seaofcrypts.ogg]
     tile_particle_1 dust
     music_volume 1
 art_alts [ [AimSpitter,eyeshooter]
@@ -250,5 +250,13 @@ palette 26
 }
 5 {
 palette 29
+}
+6 {
+palette 30
+player_physics data/reboundphysics.txt
+}
+7 {
+palette 30
+player_physics data/reboundphysics.txt
 }
 }

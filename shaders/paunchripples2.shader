@@ -30,15 +30,15 @@ varying vec2 worldPos;
         screencoords.y /= screensize.y;
 
         
-        float scale_x = screensize.x / 1.0;
-        float scale_y = screensize.y / 1.0;
+        float scale_x = screensize.x / 1280.0;
+        float scale_y = screensize.y / 720.0;
         float scale_min = min(scale_x, scale_y);
 
         vec2 ratio = vec2(scale_min / scale_x, scale_min / scale_y);
 
-        vec2 rippleval = vec2(sin(-timer*0*.5+worldPos.y / 9.0) * .0007*3.0 * ratio.x, 0.0);
-        rippleval += vec2(sin(-timer*0*.5+worldPos.y / 16.0) * .0005*3.0 * ratio.x, 0.0);
-        rippleval += vec2(sin(-timer*0*0+worldPos.x / 32.0) * .0006*3.0 * ratio.x, 0.0);
+        vec2 rippleval = vec2(sin(-timer*1.9*.5+worldPos.y / 9.0) * .0007*1.0 * ratio.x, 0.0);
+        rippleval += vec2(sin(-timer*1.7*.5+worldPos.y / 16.0) * .0005*1.0 * ratio.x, 0.0);
+        rippleval += vec2(sin(-timer*1.4*.5+worldPos.x / 32.0) * .0006*1.0 * ratio.x, 0.0);
         
         vec4 basecolor = texture(framebuf, screencoords.xy + rippleval);
         
@@ -48,8 +48,8 @@ varying vec2 worldPos;
         //reflections
         //float dy = waterheight - worldPos.y;
 
-        //vec2 reflectionval = vec2(50.0, dy / 360.0) * ratio;
-       // reflectionval += vec2(sin(-timer*20+worldPos.y / 53.0) * .201 * ratio.x, 5.0); //ripple distortion
+        //vec2 reflectionval = vec2(0.0, dy / 360.0) * ratio;
+       // reflectionval += vec2(sin(-timer*20+worldPos.y / 1.0) * .001 * ratio.x, 0.0); //ripple distortion
 
         //vec4 reflection = texture(framebuf, screencoords.xy - reflectionval);
 
