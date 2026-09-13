@@ -17,7 +17,7 @@ art_alts [
 [OrbLarge, GasINSTAKILL]
 [ChainLink2, None]
 [OrbSmall, GasINSTAKILL]
-[FloatingMine, GasserBoom]
+[FloatingMine, BoomGasserRetro]
 [LowGrav, LowGravCircle]
 [OrbChomp, GasINSTAKILL]
 ]
