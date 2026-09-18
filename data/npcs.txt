@@ -138,3 +138,15 @@ CynopsSperm {
 "be on your way now" 
     ]
 }
+GimmickGuy {
+    movieclip Gasserretro
+    sound_id Drown2
+    text [
+       "FUCK!\nI HATE THOSE \nMEGA GUYS-"
+"SOOOO MUCH!"
+       "I WISH I COULD\n JUST HOLD DOWN ON THEM!!"
+       "AND THEN\n RELEASE DOWN\nWHILST IN THE-"
+       "MIDDLE OF THOSE\nSPIKES!!"
+       "\nGRAAAAAAH!!!!!!"
+    ]
+}
