@@ -81,6 +81,7 @@ palette 49
 area_type glitch
 tile_graphics Tileworm
 overlay_graphics Overlaysretro
+art_alts [
         [Player, PlayerRetro][Frog, Frogretro][Floater, Floater2][Slug, Slugretro]
         [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
         [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
