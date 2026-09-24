@@ -4,7 +4,7 @@ cac {
     background_graphics bgretroFLUX
     foreground_graphics none
     palette 45
-
+toxic_timer 2
     cart_intro_png Canker
     cart_intro_palette 45
     
@@ -78,7 +78,17 @@ npc_1 Emperor
 
 boa {
 palette 49
-type glitch
+area_type glitch
+tile_graphics Tileworm
+overlay_graphics Overlaysretro
+        [Player, PlayerRetro][Frog, Frogretro][Floater, Floater2][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, none]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
+        [ElectroBall, RetroElectroBall][OrbSmall, RetroOrbSmall][OrbLarge, RetroOrbLarge][ChargeSlug, RetroChargerSlug]
+        [Fish, RetroFish][CreepingMass, CreepingMassRetro][BigCharger, BigChargerRetro][BigSlug, BigSlugRetro][Sentry, SentryRetro][SkullFloaterBreaky, SkullFloaterBreakyRetro][OrbChomp, OrbChompRetro][FloatingMine, BoomGasserRetro][AimSpitter, AimSpitterPredictive][AimSpitter, AimSpitterSplit][Life, LifeRetro][BigLife, BigLifeRetro][AimSpitter, SpitterZretro][SpeechBubble, SpeechBubbleRetro][GlowShroomSmall, GlowShroomSmallRetro][GlowShroom, GlowShroomRetro][Key, KeyRetro][MiniRat, MiniRatRetro][MiniFrog, MiniFrogRetro][MiniDrone, MiniDroneRetro][MiniFish, MiniFishRetro][MiniWorm, MiniWormRetro][MiniBird, MiniBirdRetro][MiniFly, MiniFlyRetro][ThwampEye, ThwampEyeRetro][ThwampGear, ThwampGearRetro][ChainHitch, ChainHitchRetro][SpeechBubble2, SpeechBubbleRetro]
+    ]
 }
 
 flux {
